@@ -122,13 +122,16 @@ Check it yourself!
 
 
 ## References
-- GQA
-- MQA
-- Flash-attention
-- Tie embedding
-- Roadless scheduler
-- Alpaca dataset
-- Open assistant dataset
-- Ultrachat dataset
-- universal transformer
-- HRM
+- [Using the Output Embedding to Improve Language Models](https://arxiv.org/pdf/1608.05859)
+- [GQA: Training Generalized Multi-Query Transformer Models from
+Multi-Head Checkpoints](https://arxiv.org/abs/2305.13245)
+- [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
+- [Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150)
+- [The Road Less Scheduled](https://arxiv.org/abs/2405.15682)
+- [Stanford Alpaca: An Instruction-following LLaMA model](https://github.com/tatsu-lab/stanford_alpaca)
+- [Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)
+- [Enhancing Chat Language Models by Scaling High-quality Instructional Conversations](https://arxiv.org/abs/2305.14233)
+- [OpenR1-Math-220k](https://huggingface.co/datasets/open-r1/OpenR1-Math-220k)
+- [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948)
+- [Universal Transformers](https://arxiv.org/abs/1807.03819)
+- [Hierarchical Reasoning Model](https://arxiv.org/abs/2506.21734)
