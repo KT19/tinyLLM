@@ -1,0 +1,9 @@
+seed: 42
+device: cuda
+tokenizer_dir: tokenizer
+model_path: pretrained/pretrain_final.pt
+max_new_token: 128
+temperature: 0.8
+top_k: 50
+top_p: 0.95
+repetition_penalty: 1.05

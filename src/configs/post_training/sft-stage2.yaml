@@ -1,0 +1,25 @@
+seed: 42
+device: cuda
+tokenizer_dir: tokenizer
+epochs: 1
+micro_batch_size: 2
+learning_rate: 0.00001
+weight_decay: 0.01
+max_seq_len: 4096
+clip_norm: 1.0
+tokens_per_step: 32768
+log_every_update: 100
+save_per_step: 10000
+base_model_ckpt: sft_mid/sft_final.pt
+out_dir: sft_instructed
+
+mixed_dataset_config:
+- mixed_dataset: 
+    name: UltraChat
+    weight: 0.6
+- mixed_dataset:
+    name: OpenR1Math
+    weight: 0.4
+
+#Add early terminate if necessary
+early_terminate_step: 50000

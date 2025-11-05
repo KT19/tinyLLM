@@ -1,0 +1,11 @@
+system_prompt: >
+    You are a helpful assistant.
+seed: 42
+device: cuda
+tokenizer_dir: tokenizer
+model_path: sft_instructed/sft_step_50000.pt
+max_new_token: 4096
+temperature: 0.8
+top_k: 20
+top_p: 0.9
+repetition_penalty: 1.2

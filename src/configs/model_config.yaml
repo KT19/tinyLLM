@@ -1,0 +1,17 @@
+vocab_size: 32000
+dim: 768
+n_layers: 10
+num_heads: 12
+num_kv_heads: 4
+head_dim: 64
+expansion: 4.0
+rope_theta: 10000.0
+rope_scale: 8.0
+max_seq_len: 65535
+window_size: 128
+attn_dropout: 0.1
+residual_dropout: 0.1
+# FOR CUSTOM HRM
+hrm_modules: 2
+hrm_N: 2
+hrm_T: 2

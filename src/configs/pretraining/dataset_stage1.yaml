@@ -1,0 +1,7 @@
+- dataset: 
+  name: HuggingFaceFW/fineweb-edu
+  weight: 0.95
+
+- dataset:
+  name: open-web-math/open-web-math
+  weight: 0.05

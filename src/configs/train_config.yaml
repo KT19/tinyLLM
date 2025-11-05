@@ -1,0 +1,24 @@
+seed: 42
+device: cuda
+tokenizer_dir: tokenizer
+total_steps: 100000
+learning_rate: 0.0003
+weight_decay: 0.1
+warmup_steps: 1000
+micro_batch_size: 2
+seq_schedule:
+  - 1024
+  - 2048
+  - 4096
+dataset_configs:
+  - dataset_stage1.yaml
+  - dataset_stage2.yaml 
+  - dataset_stage3.yaml
+clip_norm_schedule: 
+  - 5.0
+  - 3.0
+  - 1.0
+tokens_per_step: 32768
+log_every: 50
+ckpt_every: 10000
+out_dir: pretrained
