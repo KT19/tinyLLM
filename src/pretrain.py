@@ -65,7 +65,7 @@ def train(cfg: TrainConfig):
     dataset_configs = cfg.dataset_configs
     config_prefix = "configs/pretraining/"
     mixed_dataset = MixedDataset(
-        tokenizer=tokenizer, max_seq_len=1024, cfg_path=config_prefix + "dataset_stage1-2.yaml"
+        tokenizer=tokenizer, max_seq_len=1024, cfg_path=config_prefix + "dataset_stage1.yaml"
     )
     dataloader = DataLoader(mixed_dataset, batch_size=cfg.micro_batch_size, num_workers=1)
     data_itr = islice(dataloader, 1, None)
