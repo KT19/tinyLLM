@@ -59,8 +59,6 @@ class GQSWAttention(nn.Module):
     def forward(self, x: torch.Tensor, abs_pos_start: int) -> torch.Tensor:
         """
         x: input tensor (B, T, C)
-        pos_id: (T,)
-        cache & is_prefill: for inference
         """
         B, T, _ = x.shape
         device = x.device
